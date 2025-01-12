@@ -1,0 +1,165 @@
+/* General App Styles */
+.App {
+  font-family: 'Arial', sans-serif;
+  padding: 40px;
+  background-color: #F7F8FB;  /* Light off-white background */
+  color: #41436A;  /* Darker muted blue for text */
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #41436A;  /* Muted blue for section titles */
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Section Styling */
+.about-company, .certificates, .members, .vision {
+  background-color: #FE9677;  /* Soft orange background for sections */
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-company, .vision {
+  background-color: #984063;  /* Deep pinkish red for About & Vision */
+}
+
+.certificates, .members {
+  background-color: #F64668;  /* Bright pink for Certificates & Members */
+}
+
+/* Headings within Sections */
+.about-company h1, .certificates h1, .members h1, .vision h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #FFFFFF;  /* White text for section titles */
+  text-align: center;
+}
+
+/* Paragraph Styling */
+.about-company p, .vision p {
+  font-size: 16px;
+  color: #FFFFFF;  /* White text for paragraphs in about and vision sections */
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.pdf-container{
+margin: 0 auto;
+max-width: 1250px;
+  
+}
+
+/* Grid Layout for PDFs */
+.pdf-grid {
+  display: grid;
+  grid-template-columns:repeat(auto-fill,minmax(275px,1fr));
+
+  /* grid-template-columns: repeat(auto-fill, minmax(290px, 10fr));  */
+  gap: 20px;
+  
+  /* Center items horizontally */
+   /* Center items vertically */
+         /* Center the grid itself */
+
+}
+
+.pdf-card {
+  background-color: #41436A;  /* Muted blue background for cards */
+  border: 1px solid #FFFFFF;  /* White border */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pdf-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pdf-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #FFFFFF;  /* White text for card titles */
+}
+
+.pdf-preview {
+  width: 100%;
+  height: 200px;
+  background-color: #41436A;  /* Muted blue for PDF preview */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #F64668;  /* Bright pink button background */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #984063;  /* Deep pinkish red on hover */
+}
+
+/* Member Grid Styling */
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.member-card {
+  background-color: #41436A;  /* Muted blue for member cards */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.member-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-card h4 {
+  font-size: 18px;
+  color: #FFFFFF;  /* White text for member names */
+  margin: 10px 0;
+}
+
+.member-card p {
+  color: #BBBBBB;  /* Light grey text for member info */
+  font-size: 14px;
+}
+
+/* Vision Section Styling */
+.vision p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 20px auto;
+  color: #FFFFFF;  /* White text */
+}
+
+
