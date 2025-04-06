@@ -1,13 +1,16 @@
-/* Header Styles */
 .header {
   background-color: #41436A;  /* Muted blue background for header */
   color: white;
   padding: 20px 40px;  /* Adjusted padding for better spacing */
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  /* Slight shadow for depth */
-  /* border-radius: 8px; */
+}
+
+.logo {
+  margin-right: 10px; /* Space between logo and company name */
+  height: auto; /* Allow logo to scale */
 }
 
 .company-name h1 {
@@ -19,6 +22,7 @@
   text-transform: uppercase;
 }
 
+/* Navigation Styles */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -48,12 +52,27 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px 20px;
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Space between logo and name on mobile */
+  }
+
+  .company-name h1 {
+    font-size: 26px; /* Smaller font size for mobile */
+    text-align: center;
   }
 
   nav ul {
     flex-direction: column;
     gap: 15px;
+    margin-top: 20px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
   }
 }
+

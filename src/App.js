@@ -11,6 +11,7 @@ const pdfs = [
   { title: 'Firm PAN CARD', pdfFile: '/assets/pdfs/FIRM PAN CARD.pdf' },
   { title: 'Firm Registration', pdfFile: '/assets/pdfs/Firm Registration.pdf' },
   { title: 'Udyam Registration Certificate', pdfFile: '/assets/pdfs/Print _ Udyam Registration Certificate 01.pdf' },
+  {title:'Certificate of Recognition',pdfFile:'/assets/pdfs/FIRM STARTUP CERTIFICATE.pdf'}
 ];
 
 
